@@ -1,0 +1,63 @@
+body  {
+	font-family:copperplate,Serif;
+}
+#backgro {
+	margin:0px auto;
+	background-color: transparent;
+	background-image: 
+		linear-gradient(0deg, transparent 31px, #e6df44 32px),
+		linear-gradient(90deg,  transparent 31px, #e6df44 32px);
+  	background-color: #fff;
+  	background-size: 32px 32px;
+  	margin: 0px;
+  	padding: 0px;
+}
+.header {
+	padding:0px 51px 0px 51px;
+	text-decoration:none;
+}
+#header {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	height: 20px;
+	align-items: center;
+	background-color:white;
+}
+#email,#descrip {
+	font-family:Copperplate,Serif;
+	color:#494848;
+}
+#email {
+	font-size: 16px;
+}
+#descrip {
+	font-size: 12px;
+}
+#middle {
+	text-align:center;
+}
+footer {
+	color: #fff;
+	background-color: lightgoldenrodyellow;
+	margin-top: 50px;
+	padding: .2rem 0;
+	text-align: center;
+}
+div#header > a {
+	transition: font-size 1s;
+	-moz-transition: font-size 1s;	/* Firefox 4 */
+	-webkit-transition: font-size 1s;	/* Safari 或者 Chrome */
+}
+a:link {
+	color:#494848;
+}
+a:hover {
+	color:#fcddd7;
+	font-size:20px;
+}
+a:visited {
+	color: darkred;
+}
+
+

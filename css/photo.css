@@ -1,0 +1,148 @@
+body  {
+	font-family:copperplate,Serif;
+	background-color: transparent;
+	background-image: 
+		linear-gradient(0deg, transparent 31px, #e6df44 32px),
+		linear-gradient(90deg,  transparent 31px, #e6df44 32px);
+  	background-color: #fff;
+  	background-size: 32px 32px;
+  	margin: 0px;
+  	padding: 0px;
+}
+
+h1	{
+	text-align: center;
+}
+
+h2	{
+	color: chocolate;
+}
+
+h3	{
+	color: cadetblue;
+}
+
+article{
+	text-align: center;
+}
+
+#main {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	align-items: center;
+}
+
+.middle{
+	display: block;
+	margin: auto;
+    padding: 5%;
+	align-items: center;
+	text-align: center;
+}
+
+
+/*导航栏整体位置*/
+#nav{
+	float: left;
+    position: sticky;
+	z-index: 3;
+	position: -webkit-sticky;
+	top: 0;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	height: 100%;
+}
+/*导航栏整体大小，背景色*/
+.shell{
+    width: 60px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #70c0db;
+    border-radius: 0 10px 10px 0px;
+    /*导航变宽时的过度时间*/
+    transition: .3s;
+}
+.box{
+    /*变成块级元素*/
+	display:block;
+	height: 15%;
+	width: 85%;
+	margin: 9px;
+	border-radius: 5px;
+	position: relative;
+	color: black; 
+}
+
+/*导航文字设置*/
+.box span{
+	line-height: 20px;
+    font-size: 20px;
+    /*导航收缩下文字透明不显示*/
+    opacity: 0;
+}
+/*导航栏变宽*/
+.shell:hover{
+    width: 270px;
+}
+/*当鼠标移到某一项时，背景变色*/
+.box:hover{
+    background-color: rgb(214, 214, 105);
+    color: #fff;
+}
+.box:hover .fa{
+    color: #fff;
+}
+/*文字显现*/
+.shell:hover span{
+    opacity: 1;
+}
+
+
+.header {
+	padding:0px 51px 0px 51px;
+	text-decoration:none;
+}
+#header {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	align-items: center;
+	background-color:white;
+}
+#email,#descrip {
+	font-family:Copperplate,Serif;
+	color:#494848;
+}
+#email {
+	font-size: 16px;
+}
+#descrip {
+	font-size: 12px;
+}
+footer {
+	color: #fff;
+	background-color: lightgoldenrodyellow;
+	margin-top: 50px;
+	padding: .2rem 0;
+	text-align: center;
+}
+div#header > a {
+	transition: font-size 1s;
+	-moz-transition: font-size 1s;	/* Firefox 4 */
+	-webkit-transition: font-size 1s;	/* Safari 或者 Chrome */
+}
+a:link {
+	color:#494848;
+}
+a:hover {
+	color:#fcddd7;
+	font-size:20px;
+}
+a:visited {
+	color: darkred;
+}
+
